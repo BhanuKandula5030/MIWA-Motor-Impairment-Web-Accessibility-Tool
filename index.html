@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIWA Gesture Setup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="welcome-screen">
+        <h1>Welcome to MIWA</h1>
+        <p>A Motor Impairment Web Accessibility Tool</p>
+        <button onclick="startGestureSetup()">Start Gesture Setup</button>
+    </div>
+
+    <div class="gesture-setup" style="display: none;">
+        <h1>MIWA Gesture Setup</h1>
+
+        <div class="gesture-container">
+            <div class="gesture">
+                <h2>UP Gesture</h2>
+                <p>Gesture to indicate upwards movement.</p>
+                <div class="options">
+                    <div class="option">
+                        <input type="radio" name="up-gesture" id="option1">
+                        <label for="option1">Option 1</label>
+                        <img src="./Images/up1.jpg" alt="Option 1 Icon">
+                        <input type="radio" name="up-gesture" id="option1">
+                        <label for="option1">Option 2</label>
+                        <img src="./Images/up2.png" alt="Option 2 Icon">
+                        <input type="radio" name="up-gesture" id="option1">
+                        <label for="option1">Option 3</label>
+                        <img src="./Images/up1.jpg" alt="Option 3 Icon">
+                        <input type="radio" name="up-gesture" id="option1">
+                        <label for="option1">Option 4</label>
+                        <img src="./Images/up2.png" alt="Option 4 Icon">
+                    </div>
+                </div>
+            </div>
+
+            <div class="gesture">
+                <h2>Down Gesture</h2>
+                <p>Gesture to indicate downwards movement.</p>
+                <div class="options">
+                    <div class="option">
+                        <input type="radio" name="down-gesture" id="option1">
+                        <label for="option1">Option 1</label>
+                        <img src="./Images/down 1.png" alt="Option 1 Icon">
+                        <input type="radio" name="down-gesture" id="option1">
+                        <label for="option1">Option 2</label>
+                        <img src="./Images/down2.jpg" alt="Option 2 Icon">
+                        <input type="radio" name="down-gesture" id="option1">
+                        <label for="option1">Option 3</label>
+                        <img src="./Images/down 1.png" alt="Option 3 Icon">
+                        <input type="radio" name="down-gesture" id="option1">
+                        <label for="option1">Option 4</label>
+                        <img src="./Images/down2.jpg" alt="Option 4 Icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
