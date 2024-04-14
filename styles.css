@@ -31,6 +31,7 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
 .gesture-setup {
     text-align: center;
     padding: 20px;
@@ -48,6 +49,7 @@ button:hover {
     padding: 20px;
     border-radius: 10px;
 }
+
 .option {
     margin-bottom: 10px;
 }
@@ -56,4 +58,93 @@ button:hover {
     width: 50px;
     height: 50px; 
     margin-top: 5px;
+}
+
+.set-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; 
+    color: #fff;
+}
+
+.set-button:hover {
+    background-color: #218838; 
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #007bff;
+    padding: 10px;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.finish-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #6c757d; /* Gray color */
+    color: #fff;
+}
+
+.finish-button:hover {
+    background-color: #007bff; /* Blue color on hover */
+}
+
+.finish-button[disabled] {
+    background-color: #6c757d; /* Gray color when disabled */
+    cursor: not-allowed;
+}
+.selected-options-container {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.selected-options-container p {
+    margin: 10px 0;
+}
+.go-back-button,
+.confirm-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.go-back-button {
+    background-color: #dc3545; /* Red color */
+    color: #fff;
+}
+
+.confirm-button {
+    background-color: #28a745; /* Green color */
+    color: #fff;
 }

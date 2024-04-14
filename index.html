@@ -15,12 +15,11 @@
 
     <div class="gesture-setup" style="display: none;">
         <h1>MIWA Gesture Setup</h1>
-
+        <div class = "gesture-slider">
         <div class="gesture-container">
             <div class="gesture">
                 <h2>UP Gesture</h2>
                 <p>Gesture to indicate upwards movement.</p>
-                <div class="options">
                     <div class="option">
                         <input type="radio" name="up-gesture" id="option1">
                         <label for="option1">Option 1</label>
@@ -35,13 +34,13 @@
                         <label for="option1">Option 4</label>
                         <img src="./Images/up2.png" alt="Option 4 Icon">
                     </div>
-                </div>
+                <button class="set-button" onclick="setOption(this, 'up')">Set</button>
             </div>
-
+        </div>
+        <div class="gesture-container">
             <div class="gesture">
                 <h2>Down Gesture</h2>
                 <p>Gesture to indicate downwards movement.</p>
-                <div class="options">
                     <div class="option">
                         <input type="radio" name="down-gesture" id="option1">
                         <label for="option1">Option 1</label>
@@ -56,11 +55,99 @@
                         <label for="option1">Option 4</label>
                         <img src="./Images/down2.jpg" alt="Option 4 Icon">
                     </div>
-                </div>
+                <button class="set-button" onclick="setOption(this, 'down')">Set</button>
             </div>
         </div>
+        <div class="gesture-container">
+            <div class="gesture">
+                <h2>Right Gesture</h2>
+                <p>Gesture to indicate right movement.</p>
+                <div class="option">
+                    <input type="radio" name="right-gesture" id="option1">
+                    <label for="option1">Option 1</label>
+                    <img src="./Images/up1.jpg" alt="Option 1 Icon">
+                    <input type="radio" name="right-gesture" id="option1">
+                    <label for="option1">Option 2</label>
+                    <img src="./Images/up2.png" alt="Option 2 Icon">
+                    <input type="radio" name="right-gesture" id="option1">
+                    <label for="option1">Option 3</label>
+                    <img src="./Images/up1.jpg" alt="Option 3 Icon">
+                    <input type="radio" name="right-gesture" id="option1">
+                    <label for="option1">Option 4</label>
+                    <img src="./Images/up2.png" alt="Option 4 Icon">
+                </div>
+                <button class="set-button" onclick="setOption(this, 'right')">Set</button>
+            </div>   
+        </div>
+        <div class="gesture-container">
+            <div class="gesture">
+                <h2>Left Gesture</h2>
+                <p>Gesture to indicate left movement.</p>
+                <div class="option">
+                    <input type="radio" name="left-gesture" id="option1">
+                    <label for="option1">Option 1</label>
+                    <img src="./Images/up1.jpg" alt="Option 1 Icon">
+                    <input type="radio" name="left-gesture" id="option1">
+                    <label for="option1">Option 2</label>
+                    <img src="./Images/up2.png" alt="Option 2 Icon">
+                    <input type="radio" name="left-gesture" id="option1">
+                    <label for="option1">Option 3</label>
+                    <img src="./Images/up1.jpg" alt="Option 3 Icon">
+                    <input type="radio" name="left-gesture" id="option1">
+                    <label for="option1">Option 4</label>
+                    <img src="./Images/up2.png" alt="Option 4 Icon">
+                </div>
+                <button class="set-button" onclick="setOption(this, 'left')">Set</button>
+            </div>
+        </div>
+        <div class="gesture-container">
+            <div class="gesture">
+                <h2>Click Gesture</h2>
+                <p>Gesture to indicate click action.</p>
+                <div class="option">
+                    <input type="radio" name="click-gesture" id="option1">
+                    <label for="option1">Option 1</label>
+                    <img src="./Images/up1.jpg" alt="Option 1 Icon">
+                    <input type="radio" name="click-gesture" id="option1">
+                    <label for="option1">Option 2</label>
+                    <img src="./Images/up2.png" alt="Option 2 Icon">
+                    <input type="radio" name="click-gesture" id="option1">
+                    <label for="option1">Option 3</label>
+                    <img src="./Images/up1.jpg" alt="Option 3 Icon">
+                    <input type="radio" name="click-gesture" id="option1">
+                    <label for="option1">Option 4</label>
+                    <img src="./Images/up2.png" alt="Option 4 Icon">
+                </div>
+                <button class="set-button" onclick="setOption(this, 'click')">Set</button>
+            </div>
+        </div>
+        <div class="gesture-container">
+            <div class="gesture">
+                <h2>Select Gesture</h2>
+                <p>Gesture to indicate selection action.</p>
+                <div class="option">
+                    <input type="radio" name="select-gesture" id="option1">
+                    <label for="option1">Option 1</label>
+                    <img src="./Images/up1.jpg" alt="Option 1 Icon">
+                    <input type="radio" name="select-gesture" id="option1">
+                    <label for="option1">Option 2</label>
+                    <img src="./Images/up2.png" alt="Option 2 Icon">
+                    <input type="radio" name="select-gesture" id="option1">
+                    <label for="option1">Option 3</label>
+                    <img src="./Images/up1.jpg" alt="Option 3 Icon">
+                    <input type="radio" name="select-gesture" id="option1">
+                    <label for="option1">Option 4</label>
+                    <img src="./Images/up2.png" alt="Option 4 Icon">
+                </div>
+                <button class="set-button" onclick="setOption(this, 'select')">Set</button>
+            </div>
+            <button class="finish-button" onclick="finishSetup()" disabled>Finish</button>
+        </div>
+        <button class="arrow prev" onclick="navigateGestures(-1)">&#10094;</button>
+        <button class="arrow next" onclick="navigateGestures(1)">&#10095;</button>
+        
     </div>
-
+    
     <script src="script.js"></script>
 </body>
 </html>
