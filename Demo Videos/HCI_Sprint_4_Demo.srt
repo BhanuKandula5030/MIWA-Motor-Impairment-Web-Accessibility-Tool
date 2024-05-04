@@ -1,0 +1,117 @@
+00:00:00 
+
+Oh. 
+
+00:00:06 
+
+Hi team, this is team trio. This call is regarding our project which we have done this semester. 
+
+00:00:16 
+
+Well, during the start of this administer, we have been through few of the research papers which was assisted by our professor and got to know that there is a gap between the accessibility as a feature for the people having the motor disabilities and they need and extra effort to put in. 
+
+00:00:32 
+
+To operate a web interface. So we came up with an idea of guest recognition technology that improves the web interface accessibility for people with motor disability through tester recognition. People with this disability limit themselves with web interfaces. The challenges, which they include the accessibility challenges. 
+
+00:00:52 
+
+The limited input output input methods for them and also the usability issue. 
+
+00:00:58 
+
+So we have tried our best in this project to give a best approach that could help the model disabled people with a a good interface to operate on. I would pass this to my friend teammate Akhil. 
+
+00:01:17 
+
+Hi so the methodology we followed was qualitative analysis to start the project or implement the project we took the user survey as the beginning. 
+
+00:01:28 
+
+Of the project. 
+
+00:01:29 
+
+And based on the user survey we we did the inductive analysis on the responses we gather. 
+
+00:01:35 
+
+Sure. 
+
+00:01:36 
+
+On doing the inductive analysis, we were able to identify some themes on the data we had based on the themes we have developed. The prototype low fidelity prototype that users or the end users could use to provide us further feedback to improve it and tell us how the product was doing. 
+
+00:01:56 
+
+Once we were able to use the prototype with end users, we we gather some more data to complete the quantitative analysis on deciding how good the product was and how well the product is implemented. 
+
+00:02:11 
+
+And now we'll pass on to ban for the final. 
+
+00:02:21 
+
+Hi so we have performed the quantitative analysis as a last step in our project. So we have identified the participant demographics and we took the metrics like ease of preferred gesture and we have given a full task to the user. 
+
+00:02:39 
+
+Like navigating through a web page and clicking a button filling out the form and scrolling through a long page with and without our tool so that we could judge the time based upon. 
+
+00:02:52 
+
+The thing they are completing, so we just put those metrics and we we have developed an analysis and we could see the significant improvements in the task performances like the time has the average time has reduced the average time. 
+
+00:03:11 
+
+Grid has increased from 20 to 30%, which is a very positive output and the challenges they faced are like with accuracy and. 
+
+00:03:24 
+
+Coming to our project impact on the HCA community, it has impact on HCI research area since we have since we are focusing on the. 
+
+00:03:33 
+
+Web interface accessibility for people with motor disability. So our approach is a very unique style in a using the guest recognization. So this will highlight and include the design principles of HCA which is which will be which will be a major focus in the HCI research and coming to the advancements. 
+
+00:03:54 
+
+In the gesture recognization, we have demonstrated the gesture recognition. 
+
+00:04:00 
+
+Question. 
+
+00:04:02 
+
+Where to the motor impairment people? 
+
+00:04:06 
+
+Without any traditional devices like a mouse and keyboards, this highlights improvement in our research and development area, in gesture recognition techniques, and coming to the third one that is user centered approach. A study using the Myvar tool highlight the. 
+
+00:04:26 
+
+Significance of user centered design in the HCA community and. 
+
+00:04:32 
+
+The future work that would that we would propose is user engagement. If the time permits we would have, we would involve more active participants in the end user review and develop an analysis more and we would have further explored the recognition techniques. 
+
+00:04:51 
+
+And also we would provide the customization personalization in selecting the gestures for the users and we would also perform the iterative iterative things. 
+
+00:05:04 
+
+In examining the user and the final conclusion that we would draft is. 
+
+00:05:10 
+
+The reason and necessity and improving in in improving the web accessibility and this tool supports the people with motor disability and increases the user experience. Thank you. 
+
+00:05:28 
+
+But. 
+
+ 
